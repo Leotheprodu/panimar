@@ -1,0 +1,30 @@
+{
+  "name": "mec",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "test": "vitest",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nanostores/react": "^0.7.2",
+    "nanostores": "^0.10.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "2.4.1",
+    "react-type-animation": "^3.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^15.0.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "latest",
+    "jsdom": "^24.0.0",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "vitest": "^1.6.0"
+  }
+}
